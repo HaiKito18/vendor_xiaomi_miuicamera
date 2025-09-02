@@ -1,6 +1,6 @@
 # MiuiCamera
 #How to install
-- clone source
+- Clone source
 ```bash
 cd vendor/xiaomi
 ```
@@ -10,11 +10,11 @@ git clone https://github.com/HaiKito18/vendor_xiaomi_miuicamera.git
 ```bash
 mv vendor_xiaomi_miuicamera miuicamera
 ```
-- add this in device.mk
+- Add this in device.mk
 ```bash
 $(call inherit-product, vendor/xiaomi/miuicamera/MiuiCamera.mk)
 ```
-- add this in BoardConfix.mk
+- add this in BoardConfig.mk
 ```bash
 include vendor/xiaomi/miuicamera/SEPolicy.mk
 ```
