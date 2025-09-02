@@ -1,5 +1,6 @@
 # MiuiCamera
-
+#How to install
+<pre> ```bash cd vendor/xiaomi ``` </pre>
 ### Supported devices
 * agate
 * agategl
