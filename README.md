@@ -1,6 +1,23 @@
 # MiuiCamera
 #How to install
-<pre> ```bash cd vendor/xiaomi ``` </pre>
+- clone source
+```bash
+cd vendor/xiaomi
+```
+```bash
+git clone https://github.com/HaiKito18/vendor_xiaomi_miuicamera.git
+```
+```bash
+mv vendor_xiaomi_miuicamera miuicamera
+```
+- add this in device.mk
+```bash
+$(call inherit-product, vendor/xiaomi/miuicamera/MiuiCamera.mk)
+```
+- add this in BoardConfix.mk
+```bash
+include vendor/xiaomi/miuicamera/SEPolicy.mk
+```
 ### Supported devices
 * agate
 * agategl
