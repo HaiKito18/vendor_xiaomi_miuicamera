@@ -14,7 +14,7 @@ mv vendor_xiaomi_miuicamera miuicamera
 ```bash
 $(call inherit-product, vendor/xiaomi/miuicamera/MiuiCamera.mk)
 ```
-- add this in BoardConfig.mk
+- Add this in BoardConfig.mk
 ```bash
 include vendor/xiaomi/miuicamera/SEPolicy.mk
 ```
