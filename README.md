@@ -2,13 +2,7 @@
 #How to install
 - Clone source
 ```bash
-cd vendor/xiaomi
-```
-```bash
-git clone https://github.com/HaiKito18/vendor_xiaomi_miuicamera.git
-```
-```bash
-mv vendor_xiaomi_miuicamera miuicamera
+git clone https://github.com/HaiKito18/vendor_xiaomi_miuicamera.git vendor/xiaomi/miuicamera
 ```
 - Add this in device.mk
 ```bash
