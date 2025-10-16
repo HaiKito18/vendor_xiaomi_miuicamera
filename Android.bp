@@ -53,6 +53,18 @@ cc_library {
     system_ext_specific: true,
 }
 
+cc_library {
+    name: "libcom.xiaomi.camera.requestutil.so",
+    srcs: ["prebuilt/lib/libcom.xiaomi.camera.requestutil.so"],
+    system_ext_specific: true,
+}
+
+cc_library {
+    name: "libjni_jpegutil_xiaomi.so",
+    srcs: ["prebuilt/lib/libjni_jpegutil_xiaomi.so"],
+    system_ext_specific: true,
+}
+
 prebuilt_etc {
     name: "privapp-permissions-miuicamera.xml",
     system_ext_specific: true,
